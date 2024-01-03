@@ -4,7 +4,7 @@ import requests
 import telebot
 import time, base64, marshal, zlib, py_compile
 	
-token = config.TG_BOT_TOKEN
+token = Config.TG_BOT_TOKEN
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands = ['start'])
 def start(message):
