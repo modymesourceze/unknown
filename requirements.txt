@@ -1,3 +1,2 @@
 telebot
 Pytelegrambotapi==3.7.7
-py_compile
